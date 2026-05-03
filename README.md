@@ -25,7 +25,7 @@ Site Viagens/
 └── ../cidade-de-gramado-rs.avif  # Imagem do banner
 ```
 
-## 🎨 Design e Cores
+**Design e Cores**
 
 - **Paleta de Cores**:
   - Navegação: `#3813bd` (roxo)
@@ -34,7 +34,7 @@ Site Viagens/
   - Banner p: Preto com fundo branco e sombra laranja
   - Links hover: Transição suave para roxo escuro
 
-## 📱 Responsividade
+**Responsividade**
 
 O site é otimizado para dispositivos móveis com breakpoint em 768px, redimensionando:
 - Fonte do h1 do banner (3em → 2em)
@@ -66,13 +66,13 @@ O site é otimizado para dispositivos móveis com breakpoint em 768px, redimensi
 ### Sem JavaScript
 O projeto funciona completamente sem JavaScript, usando apenas HTML e CSS semântico.
 
-## 📝 Notas de Desenvolvimento
+**Notas de Desenvolvimento**
 
 - A imagem Do banner (Gramado/RS) é carregada como URL relativa
 - Navegação com foco em UX: links internos sem abrir novas abas
 - Padding-bottom do banner (50px) para compensar a navegação fixa
 
-## 🚀 Melhorias Futuras
+**Melhorias Futuras**
 
 - Adicionar mais destinos com imagens
 - Formulário de contato funcional
