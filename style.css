@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(249, 249, 196);
+}
+
+/* Navegação */
+nav {
+    background-color: #3813bd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3813bd;
+}
+
+/* Banner */
+#banner {
+    background-image: url('../cidade-de-gramado-rs.avif');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px; /* Espaço do fundo */
+}
+
+#banner h1 {
+    font-size: 3.5em;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: orange;
+}
+
+#banner p {
+    font-size: 2em;
+    text-shadow: 2px 2px 4px orange;
+    color: black;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+    margin-top: 80px; /* Para compensar o nav fixo */
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #3813bd;
+    text-shadow: 2px 2px 4px yellow;
+}
+
+section p, section ul {
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #3813bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 0;
+    }
+    #banner h1 {
+        font-size: 2em;
+    }
+    #banner p {
+        font-size: 1.2em;
+    }
+}
