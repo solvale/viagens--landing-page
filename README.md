@@ -41,7 +41,7 @@ O site é otimizado para dispositivos móveis com breakpoint em 768px, redimensi
 - Fonte do parágrafo do banner (1.5em → 1.2em)
 - Menu será reorganizado em versões futuras
 
-## 🔧 Como Usar
+## Como Usar
 
 1. **Abrir o site**: Clique duas vezes em `index.html` ou abra em um navegador web
 2. **Navegar**: Use o menu no topo para ir para cada seção
@@ -51,7 +51,7 @@ O site é otimizado para dispositivos móveis com breakpoint em 768px, redimensi
    - Nos Encontre: Contato e comunicação
    - Conselhos: Dicas para sua viagem
 
-## 💡 Detalhes Técnicos
+## Detalhes Técnicos
 
 ### HTML Semântico
 - Uso de tags apropriadas: `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
